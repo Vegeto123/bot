@@ -1,7 +1,7 @@
 import discord
 import time
 import asyncio
-import keep_alive
+
 messages = joined = 0
 client = discord.Client()
 
@@ -139,6 +139,6 @@ async def on_message(message):
                         await  mbr.edit(roles=[test])
 client.loop.create_task(help_up())
 client.loop.create_task(update_stats())
-keep_alive.keep_alive()
 
-client.run('NjYyMzU3OTY3MDg0OTc4MTk1.Xg8zbg.MdDgUKsG9s15VSytNyfnZixQ7Sc')
+
+client.run('NjYyMzU3OTY3MDg0OTc4MTk1.XhBXxw.TPK1LU9CP6BBaKiJSnOpuEPFe5Q')
